@@ -28,7 +28,7 @@
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
     center: [51.246910, 22.573620], // EDIT latitude, longitude to re-center map
-    zoom: 12,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
+    zoom: 18,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
     scrollWheelZoom: false
   });
     
@@ -45,7 +45,7 @@
   .bindPopup("Tu jest miasto Lublin");
     
        L.marker([52.229675, 21.012230]).addTo(map) // EDIT latitude, longitude to re-position marker
-  .bindPopup(<a href="https://upload.wikimedia.org/wikipedia/commons/0/0d/Pravetz-8-82.jpg">Fota</a>);
+  .bindPopup("To jest stolica");
 
   </script>
 </body>
